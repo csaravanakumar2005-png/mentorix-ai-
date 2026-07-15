@@ -1,0 +1,6 @@
+{
+  "name": "Mentorix AI",
+  "description": "AI-Powered Student Mentor providing career guidance, personalized roadmaps, resume analysis, interview preparation, and specialized coding or academic assistance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
