@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Space+Grotesk:wght@700;900&family=JetBrains+Mono:wght@500;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-accent: #3b82f6;
+  --color-muted: #1f2937;
+  --color-border: rgba(255, 255, 255, 0.1);
+}
+
+body {
+  margin: 0;
+  background-color: #050505;
+  color: #ffffff;
+  font-family: var(--font-sans);
+}
+
+/* Custom scrollbars for a highly polished dark brutalist look */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  background: #050505;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  background: #1f2937;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  background: #3b82f6;
+}
